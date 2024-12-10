@@ -1,0 +1,138 @@
+.FeaturesContainer{
+    background: linear-gradient(to bottom, #ee419752, #FFFFFF ,#FFFFFF );
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.first {
+    width: min(95% , 500px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.first h1{
+    margin-bottom: 10px;
+}
+.first > p{
+    color: #9C9C9C;
+    font-size: 12px;
+}
+.first span{
+    color: #0093D0;
+    font-weight: 600;
+}
+
+.cardlistCon{
+    width: min(90% , 500px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.cardItems{
+    width: min(90% , 300px );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.cardItems h4{
+    color: #393939;
+    margin: 10px 0;
+    font-family: Cabinet Grotesk;
+}
+.cardItems p{
+    color: #9C9C9C;
+    margin: 10px 0;
+    font-family: Cabinet Grotesk;
+}
+
+.emailAndBanner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.emailcon{
+    background-color: #FFF3F9;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.emailcon span{
+    color: #0093D0;
+    font-weight: 600;
+}
+.emailcon p{
+    color: #BDA2B0;
+    font-weight: 300;
+}
+
+.inputEmailCon{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.inputEmailCon input{
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.inputEmailCon button{
+    width: 40%;
+    height: 100%;
+    background-color: #5CD2DD;
+    border: 0;
+    border-radius: 5px;
+}
+
+@media (min-width:1024px){
+    .cardlistCon{
+        flex-direction: row;
+    }
+
+    .emailAndBanner{
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner{
+        width: 50%;
+    }
+
+    .emailcon{
+        width: 50%;
+    }
+
+}
